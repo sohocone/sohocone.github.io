@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8" />
+	<title>Discs 'N Drips | Friendly Coffee and Music</title>
+	<link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+	<body>
+			<div class="main clearfix">
+					<form class="searchform" method="post" action="FormtoEmail.php">
+						<h2>Contact Us!<h2>
+						<!--<a class="close-reveal-modal">&#215;</a>-->
+
+						<input type="text" name="name" placeholder="Joe Coffee" />
+
+						<input type="email" name="email" placeholder="joe@coffee.com" />
+
+						<textarea name="message" placeholder="Type message here"></textarea>
+					
+						<input class="site-button" type="submit" value="Send Message"/>
+
+						
+					</form>
+			</div>
+			
+		 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		 <script src="js/coffee.js"></script>
+		 <script>
+	document.write('<script src="js/vendor/'
+	+ ('__proto__' in {} ? 'zepto' : 'jquery')
+	+ '.js"><\/script>');
+</script>
+<script src="js/foundation.min.js"></script>
+<script>
+  $(document).foundation("reveal", {
+  	animation: "fade",
+  	animationSpeed: 200
+  });
+</script>
+</body>
+</html>
